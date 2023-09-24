@@ -1,0 +1,56 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    color: white;
+}
+
+.ViewImage {
+    flex-direction: column;
+    align-items: center;
+    height: 50vmin;
+}
+
+.ViewImage1 {
+    height: 40vmin;
+}
+
+.App-logo {
+    height: 20vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.ViewButton {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.ViewButton1 {
+    margin-left: 10px;
+}
+
+.ViewButton2 {
+    margin-right: 10px;
+}
+
+.Button {
+    height: 60px;
+    width: 200px;
+    background-color: rgb(46, 152, 194);
+    border-radius: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.Text {
+    font-size: 15px;
+}
